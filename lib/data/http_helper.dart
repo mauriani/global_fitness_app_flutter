@@ -7,7 +7,7 @@ class HttpHelper {
 
   final String authority = 'api.openweathermap.org';
   final String path = 'data/2.5/weather';
-  final String apiKey = 'effa3287e9a104cb3f1a862879b70a6a';
+  final String apiKey = '';
 
   Future<Weather> getWeather(String location) async {
     Map<String, dynamic> parameters = {'q': location, 'appid': apiKey};
